@@ -1,0 +1,32 @@
+/*
+ * Font credit: Felipe Elioenay
+ * https://www.behance.net/felipeelioenay
+ */
+
+@font-face {
+	font-family: 'north-culture-regular';
+	src: url('/fonts/cna_regular-webfont.woff2') format('woff2'),
+	url('/fonts/cna_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'north-culture-inline';
+	src: url('/fonts/cna_inline-webfont.woff2') format('woff2'),
+	url('/fonts/cna_inline-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'north-culture-ultralight';
+	src: url('/fonts/cna_ultralight-webfont.woff2') format('woff2'),
+	url('/fonts/cna_ultralight-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
