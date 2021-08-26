@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
@@ -5,8 +6,16 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" content="text/css" charset="utf-8" href="stylesheets/web-font.css">
         <link rel="stylesheet" content="text/css" charset="utf-8" href="stylesheets/main.css">
+        <link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/navbar.css">
     </head>
     <body>
+        <div id="navbar" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="about.html">About</a>
+			<a href="pathways.html">Pathways</a>
+		</div>
+		<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; open</span>
+		<script src="js/navbar.js"></script>
         <h1 class="header">Resources Page</h1>
         <a href="index.html">Home Page</a>
     </body>
