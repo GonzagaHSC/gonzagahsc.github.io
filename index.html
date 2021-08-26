@@ -2,49 +2,23 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/web-font.css">
 		<link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/main.css">
-		<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	</head>
 	<body>
+		<div id="navbar" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="about.html">About</a>
+			<a href="pathways.html">Pathways</a>
+		</div>
+		<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; open</span>
+		<script src="js/navbar.js"></script>
+
 		<h1 class="header">Hello world!</h1>
 		<a class="header" href="about.html">About</a>
 		<a class="header" href="resources.html">Resources</a>
 		<a class="header" href="pathways.html">Pathways</a>
 		<img src="images/gu_logo.png">
-		<h1 class="text-lg">Large font size</h1>
-		<h1 class="font-bold">Bold font weight</h1>
-		<h1 class="tracking-widest">Spacing between words</h1>
-		<h1 class="uppercase">Uppercase word</h1>
-		<div class="leading-9 text-right
-				    text-red-700
-				    bg-red-500 w-1/2 h-1/3 p-5 my-10
-					border-t-2
-					border-solid
-					border-green-500
-					opacity-40
-					shadow-2x1">
-			<p>GeeksForGeeks</p>
-		</div>
-		<input class="border focus:border-red-500
-					  focus:outline-none p-5 m-5
-				      placeholder-red-500"
-			   type="text"
-			   name=""
-			   value=""
-			   placeholder="name"/>
-		<div class="md:flex md:flex-wrap m-5">
-			<div class="bg-blue-500
-						p-5 md:w-1/3
-						md:bg-pink-600">
-				GeeksForGeeks
-			</div>
-			<div class="bg-teal-500 p-5 md:w-1/3">
-				GeeksForGeeks
-			</div>
-			<div class="bg-yellow-500 p-5 md:w-1/3">
-				GeeksForGeeks
-			</div>
-		</div>
 	</body>
 </html>
