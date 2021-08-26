@@ -7,16 +7,20 @@
         <link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/web-font.css">
         <link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/main.css">
         <link rel="stylesheet" type="text/css" charset="utf-8" href="stylesheets/navbar.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="navbar" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="about.html">About</a>
-			<a href="pathways.html">Pathways</a>
-		</div>
-		<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; open</span>
-		<script src="js/navbar.js"></script>
+        <div id="navbar" class="sidenav"></div>
+        <script>
+			$("#navbar").load("navbar.html");
+		</script>
+        
         <h1 class="header">Pathways Page</h1>
         <a href="index.html">Home Page</a>
+
+        <div id="footer"></div>
+        <script>
+			$("#footer").load("footer.html");
+		</script> 
     </body>
 </html>
